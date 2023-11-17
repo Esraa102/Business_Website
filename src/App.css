@@ -1,0 +1,22 @@
+
+
+.first {
+  width: 12.1875rem;
+  height: 20.25rem;
+  border-radius: 20.25rem;
+  background: #fff;
+  -webkit-filter: blur(225px);
+  filter: blur(225px);
+}
+
+.second {
+  width: 21.5625rem;
+  height: 32.125rem;
+  transform: rotate(156.607deg);
+}
+.third {
+  width: 27.2825rem;
+  height: 34.00413rem;
+  transform: rotate(-47.457deg);
+}
+

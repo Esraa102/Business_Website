@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .stateSection {
+    @apply py-10 flex gap-6 lg:items-center justify-between text-white  flex-col lg:flex-row;
+  }
+  .state {
+    @apply flex gap-6 items-center justify-between;
+  }
+  .number {
+    @apply text-xl md:text-3xl lg:text-5xl font-semibold;
+  }
+  .tag {
+    @apply text-sm md:text-xl lg:text-2xl uppercase  font-normal;
+  }
+  .dash {
+    @apply hidden lg:block w-[1px] h-4 bg-textColor;
+  }
+}

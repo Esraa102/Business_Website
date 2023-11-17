@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .footerContainer {
+    @apply grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-20;
+  }
+  .footerSubHead {
+    @apply text-white text-2xl font-semibold mb-4;
+  }
+  .footerLink {
+    @apply block mb-4 hover:text-mainColor transition duration-300;
+  }
+  .foot {
+    @apply p-4 md:p-10 flex items-center justify-between flex-wrap gap-8 border-t-2 border-gray-600;
+  }
+}

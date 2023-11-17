@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .cardSection {
+    @apply py-20 mt-20 flex gap-10 items-center justify-between flex-col lg:flex-row;
+  }
+}

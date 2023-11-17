@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .homeSection {
+    @apply py-20 flex items-center justify-between flex-col lg:flex-row gap-8;
+  }
+  .discount {
+    @apply flex gap-2 py-1 px-2 items-center text-sm  w-fit rounded-md;
+  }
+  .heading {
+    @apply text-3xl md:text-5xl lg:text-7xl  text-white font-normal my-10;
+  }
+  .ball {
+    @apply absolute -top-[35%]  w-full h-full -z-[1];
+  }
+}
+/* .grad-ball {
+  border-radius: 20.25rem;
+  background: #fff;
+
+  -webkit-filter: blur(225px);
+
+  filter: blur(225px);
+} */

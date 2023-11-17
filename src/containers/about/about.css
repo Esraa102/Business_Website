@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .aboutSection {
+    @apply py-20 mt-20 flex gap-10 items-center justify-between flex-col lg:flex-row;
+  }
+  .card {
+    @apply p-4 mb-4 flex gap-4 flex-col lg:flex-row  cursor-pointer rounded-3xl transition-all duration-300 hover:scale-105;
+  }
+  .card-icon {
+    @apply w-[40px] h-[40px] bg-dimBlur rounded-full flex items-center justify-center;
+  }
+  .card-title {
+    @apply text-xl mb-2 text-white;
+  }
+}

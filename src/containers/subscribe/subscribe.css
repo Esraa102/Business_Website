@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .subscribeBox {
+    @apply px-5 py-10 lg:px-10 lg:py-20  rounded-none lg:rounded-2xl flex flex-col md:flex-row items-center justify-between;
+  }
+}
